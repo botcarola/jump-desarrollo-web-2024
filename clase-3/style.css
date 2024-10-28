@@ -1,0 +1,47 @@
+body {
+color: whitesmoke;
+text-align: center;
+background-color: teal;
+font-size: 30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p, span {
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    background-color: blue;
+}
+
+.parrafo-2 {
+    background-color: rgb(5, 48, 44);
+}
+
+.section-1 article {
+    background-color: red;
+}
+
+/** ESTO ES UN SELECTOR DE ETIQUETA: por qué de etiqueta? porque lo llamo por su nombre de
+ etiqueta**/
+
+video {
+    width: 500px;
+    height: 400px;
+}
+
+/**
+selector de clase: usamos el valor del atributo class para llamarlo en CSS y cambiar el estilo de un elemento o varios que coincidan con ese nombre
+**/
+
+.contenedor-articulos {
+    background-color: white;
+    color: black;
+}
+
+/** 
+selector de ID: usamos el valor del identiicador único para agregarle estilos
+**/
+
+#subtitulo-id {
+    font-size: 40px;
+}
